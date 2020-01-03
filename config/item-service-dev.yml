@@ -5,6 +5,9 @@ eureka:
 spring:
   application:
     name: item-service
+  cloud:
+    config:
+      override-none: true
     
 server:
   port: 8001
